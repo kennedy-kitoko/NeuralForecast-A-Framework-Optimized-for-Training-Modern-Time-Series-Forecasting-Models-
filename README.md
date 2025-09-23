@@ -1,13 +1,11 @@
 #                        NeuralForecast: A Framework Optimized for Training Modern Time Series Forecasting Models (TimesNet, NHITS, LSTM), Focused on Usability and Robustness
 
-<div align="center">
-[![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)】
-[![PyTorch](https://img.shields.io/badge/PyTorch-v1.12+-red.svg)】
-[![NeuralForecast](https://img.shields.io/badge/NeuralForecast-v1.6+-green.svg)】
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)】
+[![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)]
+[![PyTorch](https://img.shields.io/badge/PyTorch-v1.12+-red.svg)
+[![NeuralForecast](https://img.shields.io/badge/NeuralForecast-v1.6+-green.svg)]
+[![License](https://img.shields.io/badge/license-MIT-blue.svg）]
 
 ** Author: Kitoko Muyunga Kennedy
-</div>
 
 This project explores the performance of modern deep learning architectures for time series forecasting using the NeuralForecast framework — an open-source library built on top of PyTorch, designed to simplify training and evaluation of state-of-the-art forecasting models.
 
