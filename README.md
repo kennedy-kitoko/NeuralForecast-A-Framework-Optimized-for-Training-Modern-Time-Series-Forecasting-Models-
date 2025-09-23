@@ -296,6 +296,9 @@ python run_experiment.py
 
 # View results
 python visualize_results.py
+
+# save the  model
+save_model.py
 ```
 
 ### Custom Data
