@@ -116,8 +116,23 @@ Hierarchical architecture designed for multi-horizon direct forecasting.
 
 ![NHITS Architecture](NHITS_Architecture.jpg)
 
-## Why NeuralForecast?
+#  NeuralForecast?
+### About NeuralForecast
+NeuralForecast offers a large collection of neural forecasting models focused on their usability, and robustness. The models range from classic networks like MLP, RNNs to novel proven contributions like NBEATS, NHITS, TFT and other architectures.
 
+​
+### 🎊 Features
+Exogenous Variables: Static, historic and future exogenous support.
+Forecast Interpretability: Plot trend, seasonality and exogenous NBEATS, NHITS, TFT, ESRNN prediction components.
+Probabilistic Forecasting: Simple model adapters for quantile losses and parametric distributions.
+Train and Evaluation Losses Scale-dependent, percentage and scale independent errors, and parametric likelihoods.
+Automatic Model Selection Parallelized automatic hyperparameter tuning, that efficiently searches best validation configuration.
+Simple Interface Unified SKLearn Interface for StatsForecast and MLForecast compatibility.
+Model Collection: Out of the box implementation of MLP, LSTM, RNN, TCN, DilatedRNN, NBEATS, NHITS, ESRNN, Informer, TFT, PatchTST, VanillaTransformer, StemGNN and HINT. See the entire collection here.
+​
+### Why?
+There is a shared belief in Neural forecasting methods’ capacity to improve our pipeline’s accuracy and efficiency.
+Unfortunately, available implementations and published research are yet to realize neural networks’ potential. They are hard to use and continuously fail to improve over statistical methods while being computationally prohibitive. For this reason, we created NeuralForecast, a library favoring proven accurate and efficient models focusing on their usability.
 ### Advantages over Alternative Frameworks
 
 **vs Pure PyTorch/TensorFlow:**
