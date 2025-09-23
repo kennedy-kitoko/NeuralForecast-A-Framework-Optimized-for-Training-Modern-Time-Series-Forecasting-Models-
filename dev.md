@@ -4,6 +4,7 @@ This project explores how **NeuralForecast** and the **Nixtla ecosystem** can be
 Inspired by the [GetInData + dema.ai case study](https://getindata.com/blog/from-concept-production-2-months-sales-forecasting-machine-learning-model-dema-ai), it highlights not only the predictive power of modern architectures (TimesNet, NHITS, LSTM, …) but also the critical role of **MLOps** in ensuring long-term success.
 
 ---
+![Project Architecture](getindata-solution-architecture.png)
 
 ## 🔍 Why NeuralForecast?
 
