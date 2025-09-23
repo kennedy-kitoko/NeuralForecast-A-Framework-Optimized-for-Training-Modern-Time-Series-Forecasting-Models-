@@ -15,7 +15,9 @@ framework an open-source library built on top of PyTorch, designed to simplify t
 We compare the effectiveness of several models including:
 
 **TimesNet**: a Transformer-like architecture tailored for temporal feature extraction
+
 **NHITS**: a hierarchical forecasting model designed for high accuracy on seasonal and trend-heavy data
+
 **LSTM**: the classical recurrent model widely used in earlier forecasting pipelines
 
 All models were trained and evaluated on a real-world multivariate dataset using the same pipeline to ensure fairness.
