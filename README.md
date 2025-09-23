@@ -27,6 +27,7 @@ The experiment demonstrates that modern specialized models like TimesNet signifi
 
 ![Project Architecture](architecture_overview.png)
 
+
 ## Dataset
 
 ### Data Structure
@@ -119,6 +120,8 @@ Hierarchical architecture designed for multi-horizon direct forecasting.
 #  NeuralForecast?
 ### About NeuralForecast
 NeuralForecast offers a large collection of neural forecasting models focused on their usability, and robustness. The models range from classic networks like MLP, RNNs to novel proven contributions like NBEATS, NHITS, TFT and other architectures.
+
+![Project Architecture](nixtka.png)
 
 ​
 ### 🎊 Features
