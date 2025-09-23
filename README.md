@@ -13,7 +13,7 @@ This project explores the performance of modern deep learning architectures for 
 
 This experiment compares three cutting-edge deep learning architectures for weather temperature prediction over 24 hours with 10-minute intervals, using historical meteorological data as input features.
 
-![Project Architecture](images/architecture_overview.png)
+![Project Architecture](architecture_overview.png)
 
 ## Dataset
 
@@ -42,7 +42,7 @@ df_processed = df_resampled.interpolate("time")
 - **Input window**: 1,008 steps (~1 week of historical data)
 - **Train/test split**: Last 7 × H points reserved for testing
 
-![Dataset Overview](images/dataset_sample.png)
+![Dataset Overview](dataset_sample.png)
 
 ## Model Architectures
 
@@ -81,7 +81,7 @@ Modern transformer-based architecture specifically adapted for time series.
 - Max epochs: 1,000
 - Advanced attention mechanisms for temporal modeling
 
-![TimesNet Results](images/timesnet_predictions.png)
+![TimesNet Results](timesnet_predictions.png)
 
 ### 3. NHITS (Neural Hierarchical Interpolation for Time Series)
 Hierarchical architecture designed for multi-horizon direct forecasting.
@@ -102,7 +102,7 @@ Hierarchical architecture designed for multi-horizon direct forecasting.
 - Max epochs: 1,000
 - Hierarchical block structure
 
-![NHITS Architecture](images/nhits_structure.png)
+![NHITS Architecture](nhits_structure.png)
 
 ## Why NeuralForecast?
 
@@ -196,7 +196,7 @@ metrics = evaluate_models(forecasts, test_data)
 | NHITS | 0.95 | 1.13 | ~45 min | 25.7M |
 | LSTM | 1.07 | 1.55 | ~25 min | 226K |
 
-![Performance Comparison](images/model_comparison.png)
+![Performance Comparison](model_comparison.png)
 
 ### Model Analysis
 
@@ -242,10 +242,10 @@ metrics = evaluate_models(forecasts, test_data)
 ## Visualizations
 
 ### Training Progress
-![Training Losses](images/training_progress.png)
+![Training Losses](training_progress.png)
 
 ### Prediction Quality
-![Forecast Accuracy](images/forecast_vs_actual.png)
+![Forecast Accuracy](forecast_vs_actual.png)
 
 ### Model Architecture Comparison
 ![Architecture Comparison](images/architecture_comparison.png)
