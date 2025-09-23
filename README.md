@@ -28,7 +28,7 @@ The experiment demonstrates that modern specialized models like TimesNet signifi
 
 
 ## Dataset
-
+[DATASETE LIEN FROM (https://github.com/Nixtla/neuralforecast?tab=readme-ov-file) ](https://drive.google.com/drive/folders/1vE0ONyqPlym2JaaAoEe0XNDR8FS_d322)
 ### Data Structure
 - **Source**: Local weather data (`weather.csv`)
 - **Target variable**: `T (degC)` (temperature in degrees Celsius)
