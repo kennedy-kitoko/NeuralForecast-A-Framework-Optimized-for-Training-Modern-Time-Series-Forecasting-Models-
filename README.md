@@ -24,7 +24,7 @@ All models were trained and evaluated on a real-world multivariate dataset using
 
 The experiment demonstrates that modern specialized models like TimesNet significantly outperform traditional methods like LSTM, both in predictive accuracy and robustness. This supports the growing shift from classical RNN-based approaches to attention-based and hierarchical models in industrial time series applications.
 
-![Project Architecture](architecture_overview.png)
+![Project Architecture](archi.png)
 
 
 ## Dataset
