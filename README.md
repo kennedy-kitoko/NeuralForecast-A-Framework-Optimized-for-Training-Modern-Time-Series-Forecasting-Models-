@@ -364,5 +364,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Email: [kitokokennedy13@gmail.com]
 
 ---
-
-**Note:** Replace placeholder image paths with actual screenshots of your results, training curves, and architecture diagrams for a complete presentation.
