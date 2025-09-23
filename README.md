@@ -60,7 +60,7 @@ Classic recurrent neural network architecture designed for sequential data.
 - Max epochs: 600
 - Supports multivariate input with historical features
 
-![LSTM Architecture](lstm_architecture.jpg)
+![LSTM Architecture](lstm_architecture.png)
 
 ### 2. TimesNet
 Modern transformer-based architecture specifically adapted for time series.
