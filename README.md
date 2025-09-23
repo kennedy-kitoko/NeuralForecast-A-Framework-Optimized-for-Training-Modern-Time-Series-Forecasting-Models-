@@ -1,9 +1,9 @@
 #                        NeuralForecast: A Framework Optimized for Training Modern Time Series Forecasting Models (TimesNet, NHITS, LSTM), Focused on Usability and Robustness
 
-[![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)]
-[![PyTorch](https://img.shields.io/badge/PyTorch-v1.12+-red.svg)
-[![NeuralForecast](https://img.shields.io/badge/NeuralForecast-v1.6+-green.svg)]
-[![License](https://img.shields.io/badge/license-MIT-blue.svg）]
+![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-v1.12+-red.svg)
+![NeuralForecast](https://img.shields.io/badge/NeuralForecast-v1.6+-green.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg）
 
 ** Author: Kitoko Muyunga Kennedy
 
@@ -11,7 +11,20 @@ This project explores the performance of modern deep learning architectures for 
 
 ## Project Overview
 
-This experiment compares three cutting-edge deep learning architectures for weather temperature prediction over 24 hours with 10-minute intervals, using historical meteorological data as input features.
+This project explores the performance of modern deep learning architectures for time series forecasting using the **NeuralForecast**
+ framework — an open-source library built on top of PyTorch, designed to simplify training and evaluation of state-of-the-art forecasting models.
+
+We compare the effectiveness of several models including:
+
+**TimesNet**: a Transformer-like architecture tailored for temporal feature extraction
+
+**NHITS**: a hierarchical forecasting model designed for high accuracy on seasonal and trend-heavy data
+
+**LSTM**: the classical recurrent model widely used in earlier forecasting pipelines
+
+All models were trained and evaluated on a real-world multivariate dataset using the same pipeline to ensure fairness.
+
+The experiment demonstrates that modern specialized models like TimesNet significantly outperform traditional methods like LSTM, both in predictive accuracy and robustness. This supports the growing shift from classical RNN-based approaches to attention-based and hierarchical models in industrial time series applications.
 
 ![Project Architecture](architecture_overview.png)
 
