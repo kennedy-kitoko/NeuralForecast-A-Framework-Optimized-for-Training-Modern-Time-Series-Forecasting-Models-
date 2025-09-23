@@ -1,0 +1,755 @@
+
+
+Seed set to 1
+Seed set to 1
+Seed set to 1
+Seed set to 1
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name         | Type          | Params | Mode 
+-------------------------------------------------------
+0 | loss         | MAE           | 0      | train
+1 | padder_train | ConstantPad1d | 0      | train
+2 | scaler       | TemporalNorm  | 0      | train
+3 | hist_encoder | LSTM          | 209 K  | train
+4 | mlp_decoder  | MLP           | 16.6 K | train
+-------------------------------------------------------
+226 K     Trainable params
+0         Non-trainable params
+226 K     Total params
+0.904     Total estimated model params size (MB)
+10        Modules in train mode
+0         Modules in eval mode
+Epoch 49: 100%|██████████| 1/1 [00:00<00:00, 13.21it/s, train_loss_step=1.020, train_loss_epoch=1.040]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 47.61it/s]
+Epoch 99: 100%|██████████| 1/1 [00:00<00:00, 11.48it/s, train_loss_step=0.766, train_loss_epoch=0.858, valid_loss=4.750]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 52.64it/s]
+Epoch 149: 100%|██████████| 1/1 [00:00<00:00, 12.57it/s, train_loss_step=0.629, train_loss_epoch=0.624, valid_loss=5.070]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 66.66it/s]
+Epoch 199: 100%|██████████| 1/1 [00:00<00:00, 12.99it/s, train_loss_step=0.555, train_loss_epoch=0.557, valid_loss=4.900]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 50.01it/s]
+Epoch 249: 100%|██████████| 1/1 [00:00<00:00, 12.92it/s, train_loss_step=0.409, train_loss_epoch=0.378, valid_loss=5.680]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 45.42it/s]
+Epoch 299: 100%|██████████| 1/1 [00:00<00:00, 13.70it/s, train_loss_step=0.334, train_loss_epoch=0.332, valid_loss=5.880]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 58.88it/s]
+Epoch 349: 100%|██████████| 1/1 [00:00<00:00, 13.16it/s, train_loss_step=0.257, train_loss_epoch=0.273, valid_loss=5.790]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 58.83it/s]
+Epoch 399: 100%|██████████| 1/1 [00:00<00:00, 12.99it/s, train_loss_step=0.207, train_loss_epoch=0.203, valid_loss=5.740]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 62.50it/s]
+Epoch 449: 100%|██████████| 1/1 [00:00<00:00, 13.33it/s, train_loss_step=0.197, train_loss_epoch=0.186, valid_loss=5.570]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 55.06it/s]
+Epoch 499: 100%|██████████| 1/1 [00:00<00:00, 13.33it/s, train_loss_step=0.161, train_loss_epoch=0.156, valid_loss=5.220]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 62.50it/s]
+Epoch 549: 100%|██████████| 1/1 [00:00<00:00, 13.33it/s, train_loss_step=0.151, train_loss_epoch=0.161, valid_loss=5.530]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 49.98it/s]
+Epoch 599: 100%|██████████| 1/1 [00:00<00:00, 14.13it/s, train_loss_step=0.136, train_loss_epoch=0.151, valid_loss=5.360]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 66.67it/s]
+Epoch 599: 100%|██████████| 1/1 [00:00<00:00,  9.73it/s, train_loss_step=0.136, train_loss_epoch=0.136, valid_loss=5.430]
+`Trainer.fit` stopped: `max_steps=600` reached.
+
+Epoch 599: 100%|██████████| 1/1 [00:00<00:00,  9.45it/s, train_loss_step=0.136, train_loss_epoch=0.136, valid_loss=5.430]
+
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name           | Type          | Params | Mode 
+---------------------------------------------------------
+0 | loss           | MAE           | 0      | train
+1 | padder_train   | ConstantPad1d | 0      | train
+2 | scaler         | TemporalNorm  | 0      | train
+3 | model          | ModuleList    | 4.7 M  | train
+4 | enc_embedding  | DataEmbedding | 192    | train
+5 | layer_norm     | LayerNorm     | 128    | train
+6 | predict_linear | Linear        | 1.2 M  | train
+7 | projection     | Linear        | 65     | train
+---------------------------------------------------------
+5.9 M     Trainable params
+0         Non-trainable params
+5.9 M     Total params
+23.400    Total estimated model params size (MB)
+50        Modules in train mode
+0         Modules in eval mode
+Epoch 49: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.871, train_loss_epoch=0.865]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00,  6.46it/s]
+Epoch 99: 100%|██████████| 1/1 [00:03<00:00,  0.29it/s, train_loss_step=0.810, train_loss_epoch=0.760, valid_loss=4.170]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 14.71it/s]
+Epoch 149: 100%|██████████| 1/1 [00:03<00:00,  0.25it/s, train_loss_step=0.677, train_loss_epoch=0.642, valid_loss=4.270]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 14.17it/s]
+Epoch 199: 100%|██████████| 1/1 [00:03<00:00,  0.25it/s, train_loss_step=0.718, train_loss_epoch=0.728, valid_loss=3.520]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 19.89it/s]
+Epoch 249: 100%|██████████| 1/1 [00:03<00:00,  0.26it/s, train_loss_step=0.659, train_loss_epoch=0.590, valid_loss=3.450]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 17.41it/s]
+Epoch 299: 100%|██████████| 1/1 [00:03<00:00,  0.27it/s, train_loss_step=0.574, train_loss_epoch=0.551, valid_loss=3.740]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 20.40it/s]
+Epoch 349: 100%|██████████| 1/1 [00:03<00:00,  0.27it/s, train_loss_step=0.506, train_loss_epoch=0.455, valid_loss=3.430]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 18.92it/s]
+Epoch 399: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.495, train_loss_epoch=0.432, valid_loss=3.750]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 30.24it/s]
+Epoch 449: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.428, train_loss_epoch=0.386, valid_loss=3.770]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 26.73it/s]
+Epoch 499: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.345, train_loss_epoch=0.351, valid_loss=4.010]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 20.96it/s]
+Epoch 549: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.358, train_loss_epoch=0.372, valid_loss=4.240]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 19.16it/s]
+Epoch 599: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.347, train_loss_epoch=0.320, valid_loss=3.860]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 20.94it/s]
+Epoch 649: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.295, train_loss_epoch=0.292, valid_loss=4.080]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 20.45it/s]
+Epoch 699: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.277, train_loss_epoch=0.263, valid_loss=4.280]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 24.29it/s]
+Epoch 749: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.264, train_loss_epoch=0.272, valid_loss=4.030]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 16.84it/s]
+Epoch 799: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.224, train_loss_epoch=0.226, valid_loss=3.630]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 19.24it/s]
+Epoch 849: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.234, train_loss_epoch=0.199, valid_loss=3.980]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 19.23it/s]
+Epoch 899: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.203, train_loss_epoch=0.215, valid_loss=4.060]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 19.38it/s]
+Epoch 949: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.198, train_loss_epoch=0.195, valid_loss=3.880]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 17.37it/s]
+Epoch 999: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.186, train_loss_epoch=0.184, valid_loss=4.020]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 17.54it/s]
+Epoch 999: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.186, train_loss_epoch=0.186, valid_loss=3.940]
+`Trainer.fit` stopped: `max_steps=1000` reached.
+
+Epoch 999: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.186, train_loss_epoch=0.186, valid_loss=3.940]
+
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name         | Type          | Params | Mode 
+-------------------------------------------------------
+0 | loss         | MAE           | 0      | train
+1 | padder_train | ConstantPad1d | 0      | train
+2 | scaler       | TemporalNorm  | 0      | train
+3 | blocks       | ModuleList    | 25.7 M | train
+-------------------------------------------------------
+25.7 M    Trainable params
+0         Non-trainable params
+25.7 M    Total params
+102.888   Total estimated model params size (MB)
+34        Modules in train mode
+0         Modules in eval mode
+Epoch 49: 100%|██████████| 1/1 [00:00<00:00, 22.73it/s, train_loss_step=0.508, train_loss_epoch=0.437]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 62.50it/s]
+Epoch 99: 100%|██████████| 1/1 [00:00<00:00, 23.26it/s, train_loss_step=0.240, train_loss_epoch=0.254, valid_loss=3.940]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 62.51it/s]
+Epoch 149: 100%|██████████| 1/1 [00:00<00:00, 25.18it/s, train_loss_step=0.164, train_loss_epoch=0.149, valid_loss=3.950]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 61.66it/s]
+Epoch 199: 100%|██████████| 1/1 [00:00<00:00, 29.42it/s, train_loss_step=0.160, train_loss_epoch=0.123, valid_loss=3.830]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 49.56it/s]
+Epoch 249: 100%|██████████| 1/1 [00:00<00:00, 25.64it/s, train_loss_step=0.109, train_loss_epoch=0.105, valid_loss=3.710]  
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 47.63it/s]
+Epoch 299: 100%|██████████| 1/1 [00:00<00:00, 24.45it/s, train_loss_step=0.122, train_loss_epoch=0.108, valid_loss=3.770]  
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 50.00it/s]
+Epoch 349: 100%|██████████| 1/1 [00:00<00:00, 27.17it/s, train_loss_step=0.0661, train_loss_epoch=0.0572, valid_loss=3.750]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 63.59it/s]
+Epoch 399: 100%|██████████| 1/1 [00:00<00:00, 25.96it/s, train_loss_step=0.056, train_loss_epoch=0.0495, valid_loss=3.720] 
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 50.02it/s]
+Epoch 449: 100%|██████████| 1/1 [00:00<00:00, 25.64it/s, train_loss_step=0.052, train_loss_epoch=0.0586, valid_loss=3.730] 
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 47.61it/s]
+Epoch 499: 100%|██████████| 1/1 [00:00<00:00, 21.18it/s, train_loss_step=0.060, train_loss_epoch=0.0541, valid_loss=3.700] 
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 96.35it/s]
+Epoch 549: 100%|██████████| 1/1 [00:00<00:00, 26.22it/s, train_loss_step=0.0499, train_loss_epoch=0.0553, valid_loss=3.760]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 50.01it/s]
+Epoch 599: 100%|██████████| 1/1 [00:00<00:00, 27.30it/s, train_loss_step=0.0528, train_loss_epoch=0.047, valid_loss=3.750] 
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 40.01it/s]
+Epoch 649: 100%|██████████| 1/1 [00:00<00:00, 27.03it/s, train_loss_step=0.0507, train_loss_epoch=0.0467, valid_loss=3.720]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 52.64it/s]
+Epoch 699: 100%|██████████| 1/1 [00:00<00:00, 25.53it/s, train_loss_step=0.0316, train_loss_epoch=0.0361, valid_loss=3.740]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 55.55it/s]
+Epoch 749: 100%|██████████| 1/1 [00:00<00:00, 24.34it/s, train_loss_step=0.0364, train_loss_epoch=0.031, valid_loss=3.720] 
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 50.25it/s]
+Epoch 799: 100%|██████████| 1/1 [00:00<00:00, 27.03it/s, train_loss_step=0.0313, train_loss_epoch=0.0265, valid_loss=3.730]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 52.63it/s]
+Epoch 849: 100%|██████████| 1/1 [00:00<00:00, 27.78it/s, train_loss_step=0.0336, train_loss_epoch=0.0341, valid_loss=3.720]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 55.55it/s]
+Epoch 899: 100%|██████████| 1/1 [00:00<00:00, 25.00it/s, train_loss_step=0.0419, train_loss_epoch=0.0396, valid_loss=3.730]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 47.63it/s]
+Epoch 949: 100%|██████████| 1/1 [00:00<00:00, 25.64it/s, train_loss_step=0.0274, train_loss_epoch=0.0357, valid_loss=3.720]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 50.00it/s]
+Epoch 999: 100%|██████████| 1/1 [00:00<00:00, 30.03it/s, train_loss_step=0.0338, train_loss_epoch=0.0283, valid_loss=3.710]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 42.56it/s]
+Epoch 999: 100%|██████████| 1/1 [00:00<00:00, 11.83it/s, train_loss_step=0.0338, train_loss_epoch=0.0338, valid_loss=3.730]
+`Trainer.fit` stopped: `max_steps=1000` reached.
+
+Epoch 999: 100%|██████████| 1/1 [00:00<00:00, 11.28it/s, train_loss_step=0.0338, train_loss_epoch=0.0338, valid_loss=3.730]
+
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name         | Type          | Params | Mode 
+-------------------------------------------------------
+0 | loss         | MAE           | 0      | train
+1 | padder_train | ConstantPad1d | 0      | train
+2 | scaler       | TemporalNorm  | 0      | train
+3 | hist_encoder | LSTM          | 209 K  | train
+4 | mlp_decoder  | MLP           | 16.6 K | train
+-------------------------------------------------------
+226 K     Trainable params
+0         Non-trainable params
+226 K     Total params
+0.904     Total estimated model params size (MB)
+10        Modules in train mode
+0         Modules in eval mode
+Epoch 49: 100%|██████████| 1/1 [00:00<00:00, 13.07it/s, train_loss_step=1.020, train_loss_epoch=1.040]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 52.64it/s]
+Epoch 99: 100%|██████████| 1/1 [00:00<00:00, 12.66it/s, train_loss_step=0.766, train_loss_epoch=0.858, valid_loss=4.750]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 50.01it/s]
+Epoch 149: 100%|██████████| 1/1 [00:00<00:00, 12.96it/s, train_loss_step=0.629, train_loss_epoch=0.624, valid_loss=5.070]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 76.94it/s]
+Epoch 199: 100%|██████████| 1/1 [00:00<00:00, 12.82it/s, train_loss_step=0.555, train_loss_epoch=0.557, valid_loss=4.900]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 55.57it/s]
+Epoch 249: 100%|██████████| 1/1 [00:00<00:00, 14.39it/s, train_loss_step=0.409, train_loss_epoch=0.378, valid_loss=5.680]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 48.48it/s]
+Epoch 299: 100%|██████████| 1/1 [00:00<00:00, 12.15it/s, train_loss_step=0.334, train_loss_epoch=0.332, valid_loss=5.880]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 61.13it/s]
+Epoch 349: 100%|██████████| 1/1 [00:00<00:00, 12.59it/s, train_loss_step=0.257, train_loss_epoch=0.273, valid_loss=5.790]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 40.58it/s]
+Epoch 399: 100%|██████████| 1/1 [00:00<00:00, 12.98it/s, train_loss_step=0.207, train_loss_epoch=0.203, valid_loss=5.740]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 58.45it/s]
+Epoch 449: 100%|██████████| 1/1 [00:00<00:00, 13.55it/s, train_loss_step=0.197, train_loss_epoch=0.186, valid_loss=5.570]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 47.59it/s]
+Epoch 499: 100%|██████████| 1/1 [00:00<00:00, 12.82it/s, train_loss_step=0.161, train_loss_epoch=0.156, valid_loss=5.220]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 58.83it/s]
+Epoch 549: 100%|██████████| 1/1 [00:00<00:00, 11.94it/s, train_loss_step=0.151, train_loss_epoch=0.161, valid_loss=5.530]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 43.48it/s]
+Epoch 599: 100%|██████████| 1/1 [00:00<00:00, 14.18it/s, train_loss_step=0.136, train_loss_epoch=0.151, valid_loss=5.360]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 49.01it/s]
+Epoch 599: 100%|██████████| 1/1 [00:00<00:00,  8.59it/s, train_loss_step=0.136, train_loss_epoch=0.136, valid_loss=5.430]
+`Trainer.fit` stopped: `max_steps=600` reached.
+
+Epoch 599: 100%|██████████| 1/1 [00:00<00:00,  8.59it/s, train_loss_step=0.136, train_loss_epoch=0.136, valid_loss=5.430]
+
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name           | Type          | Params | Mode 
+---------------------------------------------------------
+0 | loss           | MAE           | 0      | train
+1 | padder_train   | ConstantPad1d | 0      | train
+2 | scaler         | TemporalNorm  | 0      | train
+3 | model          | ModuleList    | 4.7 M  | train
+4 | enc_embedding  | DataEmbedding | 192    | train
+5 | layer_norm     | LayerNorm     | 128    | train
+6 | predict_linear | Linear        | 1.2 M  | train
+7 | projection     | Linear        | 65     | train
+---------------------------------------------------------
+5.9 M     Trainable params
+0         Non-trainable params
+5.9 M     Total params
+23.400    Total estimated model params size (MB)
+50        Modules in train mode
+0         Modules in eval mode
+Epoch 49: 100%|██████████| 1/1 [00:03<00:00,  0.28it/s, train_loss_step=0.839, train_loss_epoch=0.842]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 26.26it/s]
+Epoch 99: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.924, train_loss_epoch=0.914, valid_loss=3.780]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 28.58it/s]
+Epoch 149: 100%|██████████| 1/1 [00:03<00:00,  0.28it/s, train_loss_step=0.714, train_loss_epoch=0.713, valid_loss=4.210]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 24.64it/s]
+Epoch 199: 100%|██████████| 1/1 [00:03<00:00,  0.28it/s, train_loss_step=0.751, train_loss_epoch=0.765, valid_loss=3.920]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 20.82it/s]
+Epoch 249: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.643, train_loss_epoch=0.595, valid_loss=3.780]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 23.06it/s]
+Epoch 299: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.633, train_loss_epoch=0.608, valid_loss=3.940]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 21.24it/s]
+Epoch 349: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.564, train_loss_epoch=0.541, valid_loss=3.780]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 19.33it/s]
+Epoch 399: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.569, train_loss_epoch=0.489, valid_loss=3.750]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 22.38it/s]
+Epoch 449: 100%|██████████| 1/1 [00:03<00:00,  0.29it/s, train_loss_step=0.517, train_loss_epoch=0.442, valid_loss=3.970]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 16.67it/s]
+Epoch 499: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.433, train_loss_epoch=0.409, valid_loss=4.670]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 27.71it/s]
+Epoch 549: 100%|██████████| 1/1 [00:03<00:00,  0.29it/s, train_loss_step=0.396, train_loss_epoch=0.408, valid_loss=4.500]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 19.23it/s]
+Epoch 599: 100%|██████████| 1/1 [00:03<00:00,  0.27it/s, train_loss_step=0.439, train_loss_epoch=0.379, valid_loss=3.970]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 24.44it/s]
+Epoch 649: 100%|██████████| 1/1 [00:03<00:00,  0.29it/s, train_loss_step=0.368, train_loss_epoch=0.390, valid_loss=4.530]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 24.29it/s]
+Epoch 699: 100%|██████████| 1/1 [00:03<00:00,  0.29it/s, train_loss_step=0.339, train_loss_epoch=0.320, valid_loss=4.620]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 21.28it/s]
+Epoch 749: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.382, train_loss_epoch=0.402, valid_loss=4.770]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 17.57it/s]
+Epoch 799: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.321, train_loss_epoch=0.314, valid_loss=4.920]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 20.66it/s]
+Epoch 849: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.317, train_loss_epoch=0.279, valid_loss=5.020]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 20.69it/s]
+Epoch 899: 100%|██████████| 1/1 [00:03<00:00,  0.31it/s, train_loss_step=0.284, train_loss_epoch=0.244, valid_loss=5.060]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 17.23it/s]
+Epoch 949: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.234, train_loss_epoch=0.217, valid_loss=5.060]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 20.79it/s]
+Epoch 999: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.252, train_loss_epoch=0.230, valid_loss=4.870]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 18.97it/s]
+Epoch 999: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.252, train_loss_epoch=0.252, valid_loss=4.850]
+`Trainer.fit` stopped: `max_steps=1000` reached.
+
+Epoch 999: 100%|██████████| 1/1 [00:03<00:00,  0.30it/s, train_loss_step=0.252, train_loss_epoch=0.252, valid_loss=4.850]
+
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name         | Type          | Params | Mode 
+-------------------------------------------------------
+0 | loss         | MAE           | 0      | train
+1 | padder_train | ConstantPad1d | 0      | train
+2 | scaler       | TemporalNorm  | 0      | train
+3 | blocks       | ModuleList    | 25.7 M | train
+-------------------------------------------------------
+25.7 M    Trainable params
+0         Non-trainable params
+25.7 M    Total params
+102.888   Total estimated model params size (MB)
+34        Modules in train mode
+0         Modules in eval mode
+Epoch 49: 100%|██████████| 1/1 [00:00<00:00, 27.03it/s, train_loss_step=0.472, train_loss_epoch=0.438]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 61.45it/s]
+Epoch 99: 100%|██████████| 1/1 [00:00<00:00, 27.78it/s, train_loss_step=0.218, train_loss_epoch=0.231, valid_loss=3.940]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 69.57it/s]
+Epoch 149: 100%|██████████| 1/1 [00:00<00:00, 28.70it/s, train_loss_step=0.166, train_loss_epoch=0.172, valid_loss=4.020]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 43.01it/s]
+Epoch 199: 100%|██████████| 1/1 [00:00<00:00, 27.03it/s, train_loss_step=0.137, train_loss_epoch=0.136, valid_loss=3.850]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 62.52it/s]
+Epoch 249: 100%|██████████| 1/1 [00:00<00:00, 24.52it/s, train_loss_step=0.125, train_loss_epoch=0.116, valid_loss=3.740]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 55.41it/s]
+Epoch 299: 100%|██████████| 1/1 [00:00<00:00, 28.57it/s, train_loss_step=0.101, train_loss_epoch=0.100, valid_loss=3.770]  
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 46.36it/s]
+Epoch 349: 100%|██████████| 1/1 [00:00<00:00, 28.57it/s, train_loss_step=0.0824, train_loss_epoch=0.0586, valid_loss=3.740]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 53.43it/s]
+Epoch 399: 100%|██████████| 1/1 [00:00<00:00, 26.92it/s, train_loss_step=0.0633, train_loss_epoch=0.056, valid_loss=3.830] 
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 52.65it/s]
+Epoch 449: 100%|██████████| 1/1 [00:00<00:00, 24.75it/s, train_loss_step=0.0553, train_loss_epoch=0.0593, valid_loss=3.780]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 43.47it/s]
+Epoch 499: 100%|██████████| 1/1 [00:00<00:00, 23.66it/s, train_loss_step=0.0631, train_loss_epoch=0.0515, valid_loss=3.780]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 42.34it/s]
+Epoch 549: 100%|██████████| 1/1 [00:00<00:00, 30.12it/s, train_loss_step=0.0637, train_loss_epoch=0.0638, valid_loss=3.770]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 66.66it/s]
+Epoch 599: 100%|██████████| 1/1 [00:00<00:00, 26.01it/s, train_loss_step=0.057, train_loss_epoch=0.0523, valid_loss=3.770] 
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 71.45it/s]
+Epoch 649: 100%|██████████| 1/1 [00:00<00:00, 28.57it/s, train_loss_step=0.0667, train_loss_epoch=0.052, valid_loss=3.810] 
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 66.66it/s]
+Epoch 699: 100%|██████████| 1/1 [00:00<00:00, 26.32it/s, train_loss_step=0.0348, train_loss_epoch=0.0435, valid_loss=3.790]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 73.63it/s]
+Epoch 749: 100%|██████████| 1/1 [00:00<00:00, 31.10it/s, train_loss_step=0.0452, train_loss_epoch=0.0314, valid_loss=3.790]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 66.66it/s]
+Epoch 799: 100%|██████████| 1/1 [00:00<00:00, 31.25it/s, train_loss_step=0.0325, train_loss_epoch=0.031, valid_loss=3.780] 
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 66.64it/s]
+Epoch 849: 100%|██████████| 1/1 [00:00<00:00, 27.78it/s, train_loss_step=0.0349, train_loss_epoch=0.0345, valid_loss=3.780]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 66.67it/s]
+Epoch 899: 100%|██████████| 1/1 [00:00<00:00, 28.57it/s, train_loss_step=0.0365, train_loss_epoch=0.0363, valid_loss=3.780]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 62.50it/s]
+Epoch 949: 100%|██████████| 1/1 [00:00<00:00, 36.97it/s, train_loss_step=0.0354, train_loss_epoch=0.0416, valid_loss=3.790]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 62.03it/s]
+Epoch 999: 100%|██████████| 1/1 [00:00<00:00, 30.30it/s, train_loss_step=0.0466, train_loss_epoch=0.0304, valid_loss=3.750]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 58.82it/s]
+Epoch 999: 100%|██████████| 1/1 [00:00<00:00, 14.08it/s, train_loss_step=0.0466, train_loss_epoch=0.0466, valid_loss=3.780]
+`Trainer.fit` stopped: `max_steps=1000` reached.
+
+Epoch 999: 100%|██████████| 1/1 [00:00<00:00, 13.51it/s, train_loss_step=0.0466, train_loss_epoch=0.0466, valid_loss=3.780]
+
+Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.model_summary.ModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 100.02it/s]
+Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.model_summary.ModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:00<00:00,  7.25it/s]
+Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.model_summary.ModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+GPU available: True (cuda), used: True
+
+
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 66.71it/s]
+⚠️ Alignement: attendu 144, obtenu 0. On ajuste par index.
+
+📊 Metrics (24h):
+       model       MAE      RMSE
+1  TimesNet  0.826050  1.003634
+2     NHITS  0.951401  1.129966
+0      LSTM  1.077593  1.546650
+
+
+
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+File ~\miniconda3\envs\prediction\Lib\site-packages\pandas\core\indexes\base.py:3812, in Index.get_loc(self, key)
+   3811 try:
+-> 3812     return self._engine.get_loc(casted_key)
+   3813 except KeyError as err:
+
+File pandas/_libs/index.pyx:167, in pandas._libs.index.IndexEngine.get_loc()
+
+File pandas/_libs/index.pyx:196, in pandas._libs.index.IndexEngine.get_loc()
+
+File pandas/_libs/hashtable_class_helper.pxi:7088, in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+File pandas/_libs/hashtable_class_helper.pxi:7096, in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: 'ds'
+
+The above exception was the direct cause of the following exception:
+
+KeyError                                  Traceback (most recent call last)
+Cell In[12], line 142
+    138 # =========================================================
+    139 # 6) Visualisation
+    140 # =========================================================
+    141 plt.figure(figsize=(14,4))
+--> 142 plt.plot(plot_df["ds"], plot_df["y"], label="True", color="black", lw=2)
+    143 for m in ["LSTM","TimesNet","NHITS"]:
+    144     if m in plot_df.columns:
+
+File ~\miniconda3\envs\prediction\Lib\site-packages\pandas\core\frame.py:4107, in DataFrame.__getitem__(self, key)
+   4105 if self.columns.nlevels > 1:
+   4106     return self._getitem_multilevel(key)
+-> 4107 indexer = self.columns.get_loc(key)
+   4108 if is_integer(indexer):
+   4109     indexer = [indexer]
+
+File ~\miniconda3\envs\prediction\Lib\site-packages\pandas\core\indexes\base.py:3819, in Index.get_loc(self, key)
+   3814     if isinstance(casted_key, slice) or (
+   3815         isinstance(casted_key, abc.Iterable)
+   3816         and any(isinstance(x, slice) for x in casted_key)
+   3817     ):
+   3818         raise InvalidIndexError(key)
+-> 3819     raise KeyError(key) from err
+   3820 except TypeError:
+   3821     # If we have a listlike key, _check_indexing_error will raise
+   3822     #  InvalidIndexError. Otherwise we fall through and re-raise
+   3823     #  the TypeError.
+   3824     self._check_indexing_error(key)
+
+KeyError: 'ds'
