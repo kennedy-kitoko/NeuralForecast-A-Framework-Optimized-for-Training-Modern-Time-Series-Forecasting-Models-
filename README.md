@@ -215,7 +215,7 @@ metrics = evaluate_models(forecasts, test_data)
 - Good accuracy-to-complexity ratio
 - Reliable baseline for resource-constrained applications
 
-![Detailed Predictions](images/24h_forecast_comparison.png)
+![Detailed Predictions]([images/24h_forecast_comparison.png](https://github.com/kennedy-kitoko/NeuralForecast-A-Framework-Optimized-for-Training-Modern-Time-Series-Forecasting-Models-/blob/main/forecast_vs_actual.png))
 
 ## Key Insights
 
@@ -316,7 +316,7 @@ predictions = nf.predict()
 
 ## References
 
-- [NeuralForecast Documentation](https://nixtla.github.io/neuralforecast/)
+- [NeuralForecast Documentation]([https://nixtla.github.io/neuralforecast/](https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/introduction.html))
 - [TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis](https://arxiv.org/abs/2210.02186)
 - [NHITS: Neural Hierarchical Interpolation for Time Series Forecasting](https://arxiv.org/abs/2201.12886)
 - [PyTorch Lightning Documentation](https://pytorch-lightning.readthedocs.io/)
