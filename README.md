@@ -1,5 +1,4 @@
-#                        NeuralForecast: A Framework Optimized for Training Modern Time Series Forecasting Models
-#                                 (TimesNet, NHITS, LSTM), Focused on Usability and Robustness
+#                        NeuralForecast: A Framework Optimized for Training Modern Time Series Forecasting Models \n                                 (TimesNet, NHITS, LSTM), Focused on Usability and Robustness
 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-v1.12+-red.svg)
