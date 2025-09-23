@@ -5,8 +5,7 @@
 ![NeuralForecast](https://img.shields.io/badge/NeuralForecast-v1.6+-green.svg)
 
 **Author: Kitoko Muyunga Kennedy**
-
-This project explores the performance of modern deep learning architectures for time series forecasting using the NeuralForecast framework — an open-source library built on top of PyTorch, designed to simplify training and evaluation of state-of-the-art forecasting models.
+valuation of state-of-the-art forecasting models.
 
 ## Project Overview
 
