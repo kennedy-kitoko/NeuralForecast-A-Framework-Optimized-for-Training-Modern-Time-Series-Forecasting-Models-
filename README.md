@@ -301,18 +301,25 @@ python visualize_results.py
 ### Custom Data
 ```python
 # Adapt for your time series data
-from neuralforecast.core import NeuralForecast
-from neuralforecast.models import TimesNet
+import pandas as pd, matplotlib.pyplot as plt, seaborn as sns
+from pandas.tseries.frequencies import infer_freq
 
-# Prepare your data in NeuralForecast format
-df = prepare_data(your_data)
+df = pd.read_csv('weather.csv')
+df['date'] = pd.to_datetime(df['date'])
+df = df.set_index('date').sort_index()
 
-# Train model
-nf = NeuralForecast(models=[TimesNet(h=24, input_size=168)], freq="H")
-nf.fit(df)
+# interpolation linéaire des NaN éventuels, puis résolution à 10 min
+df = df.resample('10min').mean().interpolate('time')
 
-# Generate forecasts
-predictions = nf.predict()
+print(df.shape, infer_freq(df.index))   # doit maintenant être (..., '600S')
+print(df['T (degC)'].describe().round(2))
+plt.figure(figsize=(14,5))
+sns.lineplot(data=df['T (degC)'], color="tab:red", lw=1)
+plt.title("Température horaire interpolée (10 min)")
+plt.ylabel("Température (°C)")
+plt.xlabel("Date")
+plt.grid(alpha=.3)
+plt.show()
 ```
 
 ## Repository Structure
