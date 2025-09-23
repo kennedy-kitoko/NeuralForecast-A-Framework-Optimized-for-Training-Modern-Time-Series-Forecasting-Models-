@@ -267,7 +267,7 @@ metrics = evaluate_models(forecasts, test_data)
 ### Quick Start
 ```bash
 # Clone repository
-git clone https://github.com/kitoko-muyunga-kennedy/weather-forecasting-neuralforecast
+git clone https://github.com/kitoko-muyunga-kennedy/NeuralForecast-A-Framework-Optimized-for-Training-Modern-Time-Series-Forecasting-Models
 cd weather-forecasting-neuralforecast
 
 # Install requirements
@@ -300,20 +300,8 @@ predictions = nf.predict()
 ## Repository Structure
 
 ```
-├── data/
-│   ├── weather.csv           # Raw weather data
-│   └── processed/            # Preprocessed datasets
-├── models/                   # Saved model checkpoints
-├── results/                  # Experiment outputs
-│   ├── metrics.csv          # Performance metrics
-│   └── forecasts.csv        # Prediction results
-├── images/                   # Visualizations and plots
-├── src/
-│   ├── data_preprocessing.py # Data preparation utilities
-│   ├── model_training.py    # Training pipeline
-│   ├── evaluation.py        # Metrics and evaluation
-│   └── visualization.py     # Plotting functions
-├── run_experiment.py        # Main experiment script
+├── 
+│   weather.csv           # Raw weather data
 ├── requirements.txt         # Dependencies
 └── README.md               # This file
 ```
@@ -345,7 +333,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 **Kitoko Muyunga Kennedy**
 - GitHub: [@kitoko-muyunga-kennedy](https://github.com/kitoko-muyunga-kennedy)
-- Email: [your-email@example.com]
+- Email: [kitokokennedy13@gmail.com]
 
 ---
 
