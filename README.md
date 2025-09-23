@@ -102,7 +102,7 @@ Hierarchical architecture designed for multi-horizon direct forecasting.
 - Max epochs: 1,000
 - Hierarchical block structure
 
-![NHITS Architecture](nhits_structure.jpg)
+![NHITS Architecture](NHITS_Architecture.jpg)
 
 ## Why NeuralForecast?
 
