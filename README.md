@@ -60,7 +60,7 @@ Classic recurrent neural network architecture designed for sequential data.
 - Max epochs: 600
 - Supports multivariate input with historical features
 
-![LSTM Architecture](images/lstm_architecture.png)
+![LSTM Architecture](lstm_architecture.jpg)
 
 ### 2. TimesNet
 Modern transformer-based architecture specifically adapted for time series.
@@ -81,7 +81,7 @@ Modern transformer-based architecture specifically adapted for time series.
 - Max epochs: 1,000
 - Advanced attention mechanisms for temporal modeling
 
-![TimesNet Results](timesnet_predictions.png)
+![TimesNet Results](timesnet_predictions.jpg)
 
 ### 3. NHITS (Neural Hierarchical Interpolation for Time Series)
 Hierarchical architecture designed for multi-horizon direct forecasting.
@@ -102,7 +102,7 @@ Hierarchical architecture designed for multi-horizon direct forecasting.
 - Max epochs: 1,000
 - Hierarchical block structure
 
-![NHITS Architecture](nhits_structure.png)
+![NHITS Architecture](nhits_structure.jpg)
 
 ## Why NeuralForecast?
 
