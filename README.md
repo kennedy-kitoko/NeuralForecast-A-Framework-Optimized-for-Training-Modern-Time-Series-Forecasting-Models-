@@ -81,7 +81,7 @@ Modern transformer-based architecture specifically adapted for time series.
 - Max epochs: 1,000
 - Advanced attention mechanisms for temporal modeling
 
-![TimesNet Results](timesnet_predictions.jpg)
+![TimesNet Results](TimesNet_Results.png)
 
 ### 3. NHITS (Neural Hierarchical Interpolation for Time Series)
 Hierarchical architecture designed for multi-horizon direct forecasting.
